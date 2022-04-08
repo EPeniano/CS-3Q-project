@@ -111,8 +111,7 @@ a{
 }
 </style>
 </head>
-<body>
-    <body onload="newCard()"> 
+<body onload="newCard()"> 
         <div id="container">
         <div id="header"> 
           <h1>BINGO CARD</h1>
@@ -167,9 +166,7 @@ a{
         </div>
         </div>  
         <p id="demo"></p>
-        
-</body>
-<script>
+    <script>
   var usedNums = new Array(76);
   
   function newCard() {
@@ -297,5 +294,6 @@ a{
     document.getElementById("demo").innerHTML = "THE NUMBER GENERATED IS:"+" "+ Math.floor((Math.random() * 75) + 1);
   }
   
-     </script>
+     </script> 
+</body>
 </html>
